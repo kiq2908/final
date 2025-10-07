@@ -1,12 +1,17 @@
 .body {
   background-color: white;
   font-family: "Montserrat", sans-serif;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 16px;
 
 }
 
 .wrapper {
   background-color: beige;
   border: 2px solid black;
+  /* overflow: wrap; */
 }
 
 header {
@@ -18,14 +23,15 @@ header {
 }
 
 header h1 {
-  font-size: 3em;
+  font-size: 5em;
   color: darkblue;
   font-family: "Righteous", sans-serif;
-
+  display: flex;
+  align-items: center;
 }
 
 header h2 {
-  font-size: 1.5em;
+  font-size: 2.5em;
 }
 
 header figure {
@@ -34,6 +40,42 @@ header figure {
   height: auto;
   font-size: 80%;
 }
+header figure img {
+  max-width: 600px;
+  border: 2px solid black;
+  border-radius: 10%;
+}
+
+nav {
+  background-color: #36454f;
+  opacity: 0.8;
+  text-transform: uppercase;
+  overflow: hidden;
+  position: sticky; top: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style: none;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+}
+
+nav a:hover {
+  background-color: black;
+  border-radius: 2rem;
+}
+
 
 figcaption {
   font-style: italic;
@@ -130,3 +172,5 @@ footer a:hover {
   color: #36454f;
   text-shadow: 0 0 5px white;
 }
+
+/* experience properties */
