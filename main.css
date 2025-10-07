@@ -1,0 +1,132 @@
+.body {
+  background-color: white;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+.wrapper {
+  background-color: beige;
+  border: 2px solid black;
+}
+
+header {
+  background-color: #c0cac9;
+  padding: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  font-size: 3em;
+  color: darkblue;
+  font-family: "Righteous", sans-serif;
+
+}
+
+header h2 {
+  font-size: 1.5em;
+}
+
+header figure {
+  margin-left: 5em;
+  width: 200px;
+  height: auto;
+  font-size: 80%;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+main h2 {
+  font-size: 1.2em;
+  margin-top: 1.2em;
+}
+
+header img {
+  background-color: black;
+  border: 2px solid whitesmoke;
+  border-radius: 10%;
+  margin-bottom: 0.5em;
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+main {
+  width: 960px;
+  margin: 0 auto;
+  font-size: 135%;
+  line-height: 1.4;
+  padding: 0 1em;
+}
+
+.favorite-site {
+  text-align: center;
+  margin-top: 1.2em;
+}
+
+.favorite-site a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+  margin: 0 0.2em;
+}
+
+.favorite-site a i {
+  color: red;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.favorite-site a:hover {
+  color: darkred;
+  transform: scale(1.15);
+  text-shadow: 0 0 5px white;
+}
+
+.hobby-list li {
+  list-style-type: square;
+  margin-left: 2em;
+  margin-top: 0.5em;
+}
+
+.beach-ball-photo {
+  text-align: center;
+  margin-top: 1.5em;
+  border-radius: 10%;
+  margin-bottom: 0.5em;
+}
+
+.beach-ball-photo img {
+  border: 2px solid orange;
+  border-radius: 10%;
+}
+.contact-container {
+  text-align: center;
+  margin: 1.5em;
+}
+
+footer {
+  background-color: #c0cac9;
+  padding: 1em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+footer a {
+  color: #546880;
+  text-decoration: none;
+  font-size: 2em;
+}
+
+footer a:hover {
+  color: #36454f;
+  text-shadow: 0 0 5px white;
+}
